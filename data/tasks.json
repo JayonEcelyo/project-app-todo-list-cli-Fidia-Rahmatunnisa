@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "task": "cuci",
+    "status": "completed",
+    "priority": "low"
+  },
+  {
+    "id": 2,
+    "task": "belajar golang",
+    "status": "progress",
+    "priority": "low"
+  },
+  {
+    "id": 3,
+    "task": "ask",
+    "status": "pending",
+    "priority": "medium"
+  }
+]
