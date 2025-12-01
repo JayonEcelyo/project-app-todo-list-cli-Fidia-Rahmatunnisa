@@ -5,12 +5,19 @@ To-Do App adalah aplikasi manajemen tugas berbasis Command Line Interface (CLI) 
 Semua data tugas akan tersimpan secara lokal dalam file JSON, sehingga pengguna dapat membuka kembali daftar tugas meskipun aplikasi ditutup.
 
 ✨ Fitur Utama 
+
 Fitur	Deskripsi 
+
 ➕ Add Task	Menambahkan tugas baru beserta status & prioritas 
+
 📋 List Task	Menampilkan daftar tugas dalam bentuk tabel 
+
 ✔ Done Task	Mengubah status tugas menjadi completed 
+
 ❌ Delete Task	Menghapus tugas berdasarkan nomor 
+
 💾 Auto Save	Penyimpanan otomatis ke file JSON 
+
 🧱 Struktur Data 
 
 Aplikasi menggunakan slice untuk menyimpan data tugas di memori. 
@@ -38,10 +45,15 @@ Menulis ulang JSON ke file
 Menggunakan fmt.Printf / tabwriter untuk tampilan tabel rapi: 
 
 +----+----------------------+------------+----------+ 
+
 | No | Task                 | Status     | Priority | 
+
 +----+----------------------+------------+----------+ 
+
 | 1  | Cuci                 | completed  | low      | 
+
 +----+----------------------+------------+----------+ 
+
 
 3️⃣ Fungsi Update Status (Done) 
 
@@ -74,21 +86,21 @@ cd project-app-todo-list-cli-Fidia-Rahmatunnisa
 
 🗂 Struktur Folder 
 mini-project-2 
-│ 
-├── cmd 
-  ├── add.go 
-  ├── delete.go 
-  ├── done.go 
-  ├── list.go 
-  ├── root.go 
-├── data 
-  ├── tasks.json 
-├── model 
-  ├── task.go 
-├── service 
-  ├── task.go 
-├── utils 
-  ├── storage.go 
-└── go.mod 
-└── go.sum 
-└── main.go
+│  
+├── cmd   
+  ├── add.go  
+  ├── delete.go   
+  ├── done.go   
+  ├── list.go   
+  ├── root.go   
+├── data   
+  ├── tasks.json   
+├── model   
+  ├── task.go   
+├── service   
+  ├── task.go   
+├── utils   
+  ├── storage.go   
+└── go.mod   
+└── go.sum   
+└── main.go  
